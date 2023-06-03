@@ -6,7 +6,7 @@
         "dir::../../KnightMCU/verilog/src/mine/RAM256.v",
         "dir::../../KnightMCU/verilog/src/chatgpt/Matrix_Convolution.v",
         "dir::../../KnightMCU/verilog/src/chatgpt/Matrix_Multiplication.v",
-        "dir::../../KnightMCU/verilog/src/chatgpt/AI_Accelerator_Top.v",
+        "dir::../../KnightMCU/verilog/src/chatgpt/AI_Accelerator_Top.v"
     ],
     "EXTRA_LEFS": [
       "dir::../../lef/Matrix_Multiplication.lef",
