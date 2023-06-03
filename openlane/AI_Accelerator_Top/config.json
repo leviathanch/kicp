@@ -22,7 +22,7 @@
     "CLOCK_PORT": "wb_clk_i",
     "CLOCK_NET": "AI_Accelerator_Top.clk",
     "FP_SIZING": "absolute",
-    "DIE_AREA": "0 0 2800 1760",
+    "DIE_AREA": "0 0 2500 1500",
     "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
     "NO_SYNTH_CELL_LIST": "dir::no_synth.cells",
     "DRC_EXCLUDE_CELL_LIST": "dir::drc_exclude.cells",
