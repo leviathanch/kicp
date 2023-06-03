@@ -20,8 +20,8 @@
         "dir::../../KnightMCU/verilog/src/chatgpt/AI_Accelerator_Top.v",
         "dir::../../verilog/rtl/user_proj.v"
     ],
-	"EXTRA_LEFS": "dir::../../lef/user_proj.lef",
-	"EXTRA_GDS_FILES": "dir::../../gds/user_proj.gds",
+    "EXTRA_LEFS": "dir::../../lef/user_proj.lef",
+    "EXTRA_GDS_FILES": "dir::../../gds/user_proj.gds",
     "BASE_SDC_FILE": "dir::base_user_project_wrapper.sdc",
     "IO_SYNC": 0,
     "FP_PDN_CHECK_NODES": 0,
