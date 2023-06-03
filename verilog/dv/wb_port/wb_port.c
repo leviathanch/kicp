@@ -182,7 +182,7 @@ void main()
     reg_mprj_datal = matrix8;
     reg_mprj_datal = matrix9;
     reg_mprj_datal = matrix10;
-    reg_mprj_datal = matrix11
+    reg_mprj_datal = matrix11;
 #endif
 
     // test non square
@@ -249,6 +249,7 @@ void main()
     kiop_status = -1; // shoot and go
 #endif
 
+#if 1
     // Matrix A 5x5
     matrix0 = 42;
     matrix1 = 2;
@@ -320,7 +321,7 @@ void main()
    -30 -30 -30
    -30 -30 -28
    */
-
+#endif
 
     reg_mprj_datal = 0xAB610000; // exit
 
