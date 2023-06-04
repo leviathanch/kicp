@@ -143,7 +143,7 @@ module wb_port_tb;
 		$dumpvars(0, wb_port_tb);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
-		repeat (140) begin
+		repeat (700) begin
 			repeat (1000) @(posedge clock);
 			// $display("+1000 cycles");
 		end
@@ -158,8 +158,13 @@ module wb_port_tb;
 	end
 
 	initial begin
-	   wait(checkbits == 16'hAB60);
+    wait(checkbits == 16'hAB60);
 		$display("Monitor: MPRJ-Logic WB Started");
+		if (checkbits == 11) $display("Monitor: First correct result");
+		//wait(checkbits == 11);
+		//$display("Monitor: First correct result");
+		//wait(checkbits == -30);
+		$display("Monitor: Second correct result");
 		wait(checkbits == 16'hAB61);
 		`ifdef GL
 	    	$display("Monitor: Mega-Project WB (GL) Passed");

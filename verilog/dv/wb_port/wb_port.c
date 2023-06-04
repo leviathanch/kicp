@@ -85,8 +85,10 @@
     - Configures MPRJ lower 8-IO pins as outputs
     - Checks counter value through the wishbone port
 */
+#pragma GCC push_options
+#pragma GCC optimize ("O0")
 
-void main()
+void __attribute__((optimize("O0"))) main()
 {
     /*
     IO Control Registers
@@ -295,6 +297,7 @@ void main()
     matrix33 = -1;
 
     kiop_operation = 2; // Set 2 for selecting convolution
+
     // A 3 x 2
     kiop_width_a = 5;
     kiop_height_a = 5;
@@ -324,5 +327,5 @@ void main()
 #endif
 
     reg_mprj_datal = 0xAB610000; // exit
-
 }
+#pragma GCC pop_options
