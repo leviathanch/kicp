@@ -9,16 +9,6 @@
         "dir::../../KnightMCU/verilog/src/chatgpt/AI_Accelerator_Top.v",
         "dir::../../verilog/rtl/user_proj.v"
     ],
-    "EXTRA_LEFS": [
-      "dir::../../lef/Matrix_Multiplication.lef",
-      "dir::../../lef/Matrix_Convolution.lef",
-      "dir::../../lef/RAM256.lef"
-    ],
-    "EXTRA_GDS_FILES": [
-      "dir::../../gds/Matrix_Multiplication.gds",
-      "dir::../../gds/Matrix_Convolution.gds",
-      "dir::../../gds/RAM256.gds"
-    ],
     "CLOCK_PERIOD": 25,
     "CLOCK_PORT": "wb_clk_i",
     "CLOCK_NET": "AI_Accelerator_Top.wb_clk_i",
