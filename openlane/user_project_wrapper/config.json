@@ -18,7 +18,6 @@
         "dir::../../KnightMCU/verilog/src/chatgpt/Matrix_Convolution.v",
         "dir::../../KnightMCU/verilog/src/chatgpt/Matrix_Multiplication.v",
         "dir::../../KnightMCU/verilog/src/chatgpt/AI_Accelerator_Top.v",
-        "dir::../../verilog/rtl/user_proj.v"
     ],
     "EXTRA_LEFS": "dir::../../lef/user_proj.lef",
     "EXTRA_GDS_FILES": "dir::../../gds/user_proj.gds",

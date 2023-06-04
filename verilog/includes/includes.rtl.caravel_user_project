@@ -5,4 +5,3 @@
 -v $(USER_PROJECT_VERILOG)/../KnightMCU/verilog/src/chatgpt/Matrix_Convolution.v
 -v $(USER_PROJECT_VERILOG)/../KnightMCU/verilog/src/chatgpt/Matrix_Multiplication.v
 -v $(USER_PROJECT_VERILOG)/../KnightMCU/verilog/src/chatgpt/AI_Accelerator_Top.v
--v $(USER_PROJECT_VERILOG)/rtl/user_proj.v
