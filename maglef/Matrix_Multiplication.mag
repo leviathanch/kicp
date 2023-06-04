@@ -1,11 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1685818652
+timestamp 1685855718
 << obsli1 >>
 rect 1104 2159 178848 177361
 << obsm1 >>
-rect 934 892 179110 179308
+rect 934 2128 179110 179308
 << metal2 >>
 rect 2962 179200 3018 180000
 rect 8574 179200 8630 180000
@@ -234,7 +234,7 @@ rect 142448 2128 142768 177392
 rect 157808 2128 158128 177392
 rect 173168 2128 173488 177392
 << obsm4 >>
-rect 1899 2347 4128 176493
+rect 3003 2347 4128 176493
 rect 4608 2347 19488 176493
 rect 19968 2347 34848 176493
 rect 35328 2347 50208 176493
@@ -245,7 +245,7 @@ rect 96768 2347 111648 176493
 rect 112128 2347 127008 176493
 rect 127488 2347 142368 176493
 rect 142848 2347 157728 176493
-rect 158208 2347 167749 176493
+rect 158208 2347 165173 176493
 << labels >>
 rlabel metal2 s 2962 179200 3018 180000 6 addr_o[0]
 port 1 nsew signal output
@@ -481,8 +481,8 @@ port 105 nsew ground bidirectional
 string FIXED_BBOX 0 0 180000 180000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 59054426
-string GDS_FILE /home/leviathan/kicp/openlane/Matrix_Multiplication/runs/23_06_03_18_45/results/signoff/Matrix_Multiplication.magic.gds
-string GDS_START 1533430
+string GDS_END 57975866
+string GDS_FILE /home/leviathan/kicp/openlane/Matrix_Multiplication/runs/23_06_04_05_03/results/signoff/Matrix_Multiplication.magic.gds
+string GDS_START 1550704
 << end >>
 
