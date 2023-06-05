@@ -10,7 +10,7 @@
     ],
     "CLOCK_PERIOD": 25,
     "CLOCK_PORT": "wb_clk_i",
-    "CLOCK_NET": "wb_clk_i",
+    "CLOCK_NET": "clk",
     "FP_SIZING": "absolute",
     "DIE_AREA": "0 0 2800 1760",
     "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
@@ -32,7 +32,7 @@
         "vssd1"
     ],
     "IO_SYNC": 0,
-    "BASE_SDC_FILE": "dir::base_user_proj.sdc",
+    "BASE_SDC_FILE": "dir::base_user_proj_example.sdc",
     "DIODE_INSERTION_STRATEGY": 3,
     "RUN_CVC": 1,
     "pdk::sky130*": {
@@ -54,13 +54,5 @@
         "scl::sky130_fd_sc_ms": {
             "CLOCK_PERIOD": 10
         }
-    },
-    "pdk::gf180mcuC": {
-        "STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
-        "CLOCK_PERIOD": 24.0,
-        "FP_CORE_UTIL": 40,
-        "RT_MAX_LAYER": "Metal4",
-        "SYNTH_MAX_FANOUT": 4,
-        "PL_TARGET_DENSITY": 0.45
     }
 }
