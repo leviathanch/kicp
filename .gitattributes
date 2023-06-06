@@ -12,3 +12,5 @@ verilog/gl/AI_Accelerator_Top.nl.v filter=lfs diff=lfs merge=lfs -text
 verilog/gl/Matrix_Convolution.v filter=lfs diff=lfs merge=lfs -text
 verilog/gl/user_proj.v filter=lfs diff=lfs merge=lfs -text
 verilog/gl/AI_Accelerator_Top.v filter=lfs diff=lfs merge=lfs -text
+knight.png filter=lfs diff=lfs merge=lfs -text
+layout.png filter=lfs diff=lfs merge=lfs -text
