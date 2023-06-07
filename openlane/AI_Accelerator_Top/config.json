@@ -7,6 +7,9 @@
     ],
     "VERILOG_FILES_BLACKBOX": [
         "dir::../../KnightMCU/verilog/src/mine/constants.v",
+        "dir::../../KnightMCU/verilog/src/chatgpt/Control_Unit.v",
+        "dir::../../KnightMCU/verilog/src/chatgpt/Memory_Controller.v",
+        "dir::../../KnightMCU/verilog/src/chatgpt/Wishbone_Slave_Controller.v",
         "dir::../../KnightMCU/verilog/src/chatgpt/Matrix_Convolution.v",
         "dir::../../KnightMCU/verilog/src/chatgpt/Matrix_Multiplication.v",
         "dir::../../mgmt_core_wrapper/verilog/rtl/RAM256.v"
@@ -14,13 +17,19 @@
     "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
     "EXTRA_LEFS": [
         "dir::../../mgmt_core_wrapper/lef/RAM256.lef",
+        "dir::../../lef/Control_Unit.lef",
+        "dir::../../lef/Memory_Controller.lef",
+        "dir::../../lef/Wishbone_Slave_Controller.lef",
         "dir::../../lef/Matrix_Convolution.lef",
         "dir::../../lef/Matrix_Multiplication.lef"
     ],
     "EXTRA_GDS_FILES": [
-	"dir::../../mgmt_core_wrapper/gds/RAM256.gds",
-	"dir::../../gds/Matrix_Convolution.gds",
-	"dir::../../gds/Matrix_Multiplication.gds"
+      "dir::../../mgmt_core_wrapper/gds/RAM256.gds",
+      "dir::../../gds/Control_Unit.gds",
+      "dir::../../gds/Memory_Controller.gds",
+      "dir::../../gds/Wishbone_Slave_Controller.gds",
+      "dir::../../gds/Matrix_Convolution.gds",
+      "dir::../../gds/Matrix_Multiplication.gds"
     ],
     "CLOCK_PERIOD": 25,
     "CLOCK_PORT": "wb_clk_i",
